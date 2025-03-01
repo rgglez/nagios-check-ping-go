@@ -21,7 +21,7 @@ This command pings www.example.com, reporting a warning if the ping times are ab
 
 ### Command line parameters
 
-* `--host` or `-H' string. Hostname or IP address to ping.
+* `--host` or `-H` string. Hostname or IP address to ping.
 * `--warn` or `-w` string. Warning threshold in the form 'time,packets%'. Default: "150,5%".
 * `--crit` or `-c` string. Critical threshold in the form 'time,packets%'. Default: "200,10%".
 * `--count` or `-n` string. Number of packets to be send. Default: 5.
