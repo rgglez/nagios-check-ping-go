@@ -1,11 +1,11 @@
-# nagios-check-icmp-go
+# nagios-check-ping-go
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-![GitHub all releases](https://img.shields.io/github/downloads/rgglez/nagios-check-icmp-go/total)
-![GitHub issues](https://img.shields.io/github/issues/rgglez/nagios-check-icmp-go)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/rgglez/nagios-check-icmp-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/rgglez/nagios-check-icmp-go)](https://goreportcard.com/report/github.com/rgglez/nagios-check-icmp-go)
-[![GitHub release](https://img.shields.io/github/release/rgglez/nagios-check-icmp-go.svg)](https://github.com/rgglez/nagios-check-icmp-go/releases/)
+![GitHub all releases](https://img.shields.io/github/downloads/rgglez/nagios-check-ping-go/total)
+![GitHub issues](https://img.shields.io/github/issues/rgglez/nagios-check-ping-go)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/rgglez/nagios-check-ping-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/rgglez/nagios-check-ping-go)](https://goreportcard.com/report/github.com/rgglez/nagios-check-ping-go)
+[![GitHub release](https://img.shields.io/github/release/rgglez/nagios-check-ping-go.svg)](https://github.com/rgglez/nagios-check-ping-go/releases/)
 
 *nagios-check-icmp-go* is a plugin for [Nagios](https://www.nagios.org) written in [Go](https://go.dev/). It pings a host to check if it is alive. Currently this plugin uses [pro-bing](https://github.com/prometheus-community/pro-bing) and can be run in non-root mode.
 
@@ -14,7 +14,7 @@
 ### Example
 
 ```bash
-check_icmp_go --host=www.example.com --warn=100,5% --crit=200,10% -count=5
+check_ping_go --host=www.example.com --warn=100,5% --crit=200,10% -count=5
 ```
 
 This command pings www.example.com, reporting a warning if the ping times are above 100ms or 5% of packets are lost, and a critical condition if times excedes 200 or at least 10% are lost. It sends 5 packets.
@@ -37,8 +37,8 @@ This command pings www.example.com, reporting a warning if the ping times are ab
 ### Get the code
 
 ```bash
-$ git clone https://github.com/rgglez/nagios-check-icmp-go.git
-$ cd nagios-check-icmp-go
+$ git clone https://github.com/rgglez/nagios-check-ping-go.git
+$ cd nagios-check-ping-go
 ```
 
 ### Build
