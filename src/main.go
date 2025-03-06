@@ -98,16 +98,16 @@ func main() {
 	// Check thresholds
 	var exitCode int
 	var statusText string
-	
+
 	if stats.PacketLoss >= critLoss || stats.AvgRtt >= time.Duration(critTime)*time.Millisecond {
 		exitCode = 2 // Critical
-		statusText = fmt.Sprintf("CRITICAL - Packet loss: %.2f%%, RTT: %v", stats.PacketLoss, stats.AvgRtt)
+		statusText = fmt.Sprintf("Packet loss: %.2f%%, RTT: %v", stats.PacketLoss, stats.AvgRtt)
 	} else if stats.PacketLoss >= warnLoss || stats.AvgRtt >= time.Duration(warnTime)*time.Millisecond {
 		exitCode = 1 // Warning
-		statusText = fmt.Sprintf("WARNING - Packet loss: %.2f%%, RTT: %v", stats.PacketLoss, stats.AvgRtt)
+		statusText = fmt.Sprintf("Packet loss: %.2f%%, RTT: %v", stats.PacketLoss, stats.AvgRtt)
 	} else {
 		exitCode = 0 // OK
-		statusText = fmt.Sprintf("OK - Packet loss: %.2f%%, RTT: %v", stats.PacketLoss, stats.AvgRtt)
+		statusText = fmt.Sprintf("Packet loss: %.2f%%, RTT: %v", stats.PacketLoss, stats.AvgRtt)
 	}
 
 	// Prepare performance data
