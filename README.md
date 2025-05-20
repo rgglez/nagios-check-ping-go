@@ -77,4 +77,5 @@ As stated in its [documentation](https://github.com/prometheus-community/pro-bin
 
 Copyright 2024 Rodolfo González González.
 
-[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). Please read the [LICENSE](LICENSE.md) file.
+[GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html). Please read the [LICENSE](LICENSE.md) file.
+
