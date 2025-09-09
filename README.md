@@ -6,6 +6,9 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/rgglez/nagios-check-ping-go)
 [![Go Report Card](https://goreportcard.com/badge/github.com/rgglez/nagios-check-ping-go)](https://goreportcard.com/report/github.com/rgglez/nagios-check-ping-go)
 [![GitHub release](https://img.shields.io/github/release/rgglez/nagios-check-ping-go.svg)](https://github.com/rgglez/nagios-check-ping-go/releases/)
+[![Go Report Card](https://goreportcard.com/badge/github.com/rgglez/git-scripts)](https://goreportcard.com/report/github.com/rgglez/nagios-check-ping-go)
+![GitHub stars](https://img.shields.io/github/stars/rgglez/nagios-check-ping-go?style=social)
+![GitHub forks](https://img.shields.io/github/forks/rgglez/nagios-check-ping-go?style=social)
 
 *nagios-check-ping-go* is a plugin for [Nagios](https://www.nagios.org) written in [Go](https://go.dev/). It pings a host to check if it is alive. Currently this plugin uses [pro-bing](https://github.com/prometheus-community/pro-bing) and can be run in non-root mode.
 
