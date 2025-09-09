@@ -4,9 +4,8 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/rgglez/nagios-check-ping-go/total)
 ![GitHub issues](https://img.shields.io/github/issues/rgglez/nagios-check-ping-go)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/rgglez/nagios-check-ping-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/rgglez/nagios-check-ping-go)](https://goreportcard.com/report/github.com/rgglez/nagios-check-ping-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/rgglez/nagios-check-ping-go/src)](https://goreportcard.com/report/github.com/rgglez/nagios-check-ping-go/src)
 [![GitHub release](https://img.shields.io/github/release/rgglez/nagios-check-ping-go.svg)](https://github.com/rgglez/nagios-check-ping-go/releases/)
-[![Go Report Card](https://goreportcard.com/badge/github.com/rgglez/git-scripts/src)](https://goreportcard.com/report/github.com/rgglez/nagios-check-ping-go)
 ![GitHub stars](https://img.shields.io/github/stars/rgglez/nagios-check-ping-go?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/rgglez/nagios-check-ping-go?style=social)
 
