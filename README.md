@@ -77,7 +77,7 @@ As stated in its [documentation](https://github.com/prometheus-community/pro-bin
 
 ## License
 
-Copyright 2024 Rodolfo González González.
+Copyright 2026 Rodolfo González González.
 
 [GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html). Please read the [LICENSE](LICENSE.md) file.
 
